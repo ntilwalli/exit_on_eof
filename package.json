@@ -1,0 +1,25 @@
+{
+  "name": "exit_on_eof",
+  "version": "1.0.0",
+  "description": "Run a command as a child process and exit process upon EOF (^D)",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntilwalli/exit-on-eof.git"
+  },
+  "keywords": [
+    "phoenix",
+    "server",
+    "watcher",
+    "browserify"
+  ],
+  "author": "Nikhil Tilwalli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntilwalli/exit-on-eof/issues"
+  },
+  "homepage": "https://github.com/ntilwalli/exit-on-eof#readme"
+}
