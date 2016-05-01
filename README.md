@@ -4,7 +4,7 @@ Helper script for Elixir/Phoenix projects using `npm scripts` as a watcher inste
 
 `npm install -g exit_on_eof`
 
-### Usage
+### Description
 
 Elixir/Phoenix projects use Brunch by default for front-end workflows, but this can be modified to use
 a simpler approach like `npm scripts` as described [here](http://martinholman.co.nz/blog/2015/09/27/elixir-phoenix-browserify/).  A problem arises though
@@ -19,7 +19,7 @@ To read more about this sensitivity to EOF as per Chris McCord, view [this](http
 
 (Both [Webpack](https://github.com/webpack/webpack/pull/1311) and [Brunch](https://github.com/brunch/brunch/blob/master/CHANGELOG.md) were actively PR'd to allow for this behavior.  This is a stop-gap until a more elegant [solution](https://github.com/phoenixframework/phoenix/issues/1540) presents.)
 
-###Example
+###Usage
 
 In Phoenix project update `config/dev.exs`:
 ```
