@@ -17,7 +17,7 @@ to both SIGINT and EOF.
 
 To read more about this sensitivity to EOF as per Chris McCord, view [this](https://groups.google.com/forum/#!topic/phoenix-talk/IHS9VoO8Kws)
 
-(Both [Webpack](https://github.com/webpack/webpack/pull/1311) and [Brunch](https://github.com/brunch/brunch/blob/master/CHANGELOG.md) were actively PR'd to allow for this behavior.  This is a stop-gap until a more elegant [solution](https://github.com/phoenixframework/phoenix/issues/1540) presents.
+(Both [Webpack](https://github.com/webpack/webpack/pull/1311) and [Brunch](https://github.com/brunch/brunch/blob/master/CHANGELOG.md) were actively PR'd to allow for this behavior.  This is a stop-gap until a more elegant [solution](https://github.com/phoenixframework/phoenix/issues/1540) presents.)
 
 ###Example
 
