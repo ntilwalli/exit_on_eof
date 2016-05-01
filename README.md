@@ -24,8 +24,8 @@ To read more about this sensitivity to EOF as per Chris McCord, view [this](http
 In Phoenix project update `config/dev.exs`:
 ```
 config :{YOUR_PROJECT_NAME_ATOM}, {YOUR_PROJECT_NAME}.Endpoint
-...
-watchers: [exit_on_eof: ["npm run watch"]]
+  ...
+  watchers: [exit_on_eof: ["npm run watch"]]
 ```
 In your `package.json`:
 ```
