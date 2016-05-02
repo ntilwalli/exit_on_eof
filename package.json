@@ -1,6 +1,6 @@
 {
   "name": "exit_on_eof",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Run a command as a child process and exit process upon EOF (^D)",
   "bin": "./index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntilwalli/exit-on-eof.git"
+    "url": "git+https://github.com/ntilwalli/exit_on_eof.git"
   },
   "keywords": [
     "phoenix",
