@@ -1,8 +1,6 @@
 #! /usr/bin/env node
 var process = require('process')
 var child_process = require('child_process');
-var exec = child_process.excess
-var runAll = require('npm-run-all')
 
 if (process.argv.length !== 3) {
   console.log("exit-on-eof requires command to be sent (as a string)")
